@@ -1,0 +1,9 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnSave": true, 
+"flow.useNPMPackagedFlow": true,
+"javascript.validate.enable": false,
+
+"javascript.format.enable": false
+}

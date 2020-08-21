@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class Header extends Component {
+export default class Sidebar extends Component {
     render() {
         return (
             <div>
-                <h1> The Header Component</h1>
+                The Sidebar
             </div>
         )
     }

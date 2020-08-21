@@ -1,0 +1,43 @@
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+  @include clearfix;
+  [class^="col-"] {
+    float: left;
+    margin-left: 0;
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+      @include resolution(phone) {
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
+    }
+    @include resolution(phone) {
+      width: 100% !important;
+    }
+  }
+
+  .col-1-of-2 {
+    width: col_1of2($gutter-horizontal);
+  }
+
+  .col-1-of-3 {
+    width: col_1of3($gutter-horizontal);
+  }
+  .col-2-of-3 {
+    width: col_2of3($gutter-horizontal);
+  }
+  .col-1-of-4 {
+    width: col_1of4($gutter-horizontal);
+  }
+  .col-2-of-4 {
+    width: col_2of4($gutter-horizontal);
+  }
+  .col-3-of-4 {
+    width: col_3of4($gutter-horizontal);
+  }
+}

@@ -66,3 +66,21 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## React-Redux-Boilerplate - 1.0.0
+A personal React boilerplate wired up with redux and scss. 
+
+### App.js
+The point of entry for the app. Here the Components Styles and Redux components are imported 
+
+### Folders
+Components Folder:
+
+Redux Folder:
+
+Helper Folder:
+
+Assets Folder:
+
+
+
